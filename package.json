@@ -37,6 +37,7 @@
   "dependencies": {
     "flowbite-svelte": "^0.30.4",
     "svelte-preprocess": "^5.0.1",
+    "trap-focus-svelte": "^1.0.0",
     "vite-tsconfig-paths": "^4.0.5"
   }
 }
