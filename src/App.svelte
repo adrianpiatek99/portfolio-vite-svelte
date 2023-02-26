@@ -1,6 +1,7 @@
 <script lang="ts">
   import AboutMeSection from "lib/AboutMeSection.svelte";
   import ContactSection from "lib/ContactSection.svelte";
+  import SkillsSection from "lib/SkillsSection.svelte";
 </script>
 
 <main class="relative flex flex-col">
@@ -10,6 +11,7 @@
   />
   <div class="flex flex-col max-w-[1240px] w-full mx-auto p-[30px] z-1">
     <AboutMeSection />
+    <SkillsSection />
     <ContactSection />
   </div>
 </main>
