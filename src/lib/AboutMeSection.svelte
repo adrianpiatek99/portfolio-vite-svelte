@@ -12,8 +12,8 @@
     <Typography tag="p" class="text-primary text-xl sm:text-2xl" weight="semibold"
       >Junior React Developer</Typography
     >
-    <Typography tag="p" class="text-color2 text-l sm:text-xl"
-      >Hello and welcome to my portfolio.</Typography
+    <Typography tag="p" class="text-color2 text-l sm:text-xl whitespace-pre-line"
+      >{"Hello and welcome to my portfolio!\n Passionate about web development and a bit of design. My journey with web dev development started at the turn of 2020 and 2021."}</Typography
     >
     <div class="flex gap-[12px]">
       <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" tabIndex={-1}>
