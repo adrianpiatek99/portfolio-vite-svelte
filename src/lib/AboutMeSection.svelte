@@ -3,7 +3,7 @@
   import IconButton from "atoms/IconButton/IconButton.svelte";
   import Typography from "atoms/Typography.svelte";
 
-  import githubLogo from "assets/icons/github.svg";
+  import githubIcon from "assets/icons/github.svg";
   import { GITHUB_URL } from "constants/links";
 </script>
 
@@ -18,7 +18,7 @@
     <div class="flex gap-[12px]">
       <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" tabIndex={-1}>
         <IconButton title="GitHub" size="large">
-          <img draggable="false" src={githubLogo} alt="GitHub" />
+          <img draggable="false" src={githubIcon} alt="GitHub" />
         </IconButton>
       </a>
     </div>
