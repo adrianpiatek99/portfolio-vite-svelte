@@ -1,6 +1,7 @@
 <script lang="ts">
   import AboutMeSection from "lib/AboutMeSection.svelte";
   import ContactSection from "lib/ContactSection.svelte";
+  import Footer from "lib/Footer.svelte";
   import SkillsSection from "lib/SkillsSection.svelte";
 </script>
 
@@ -14,4 +15,5 @@
     <SkillsSection />
     <ContactSection />
   </div>
+  <Footer />
 </main>
