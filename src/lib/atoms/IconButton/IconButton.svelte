@@ -4,6 +4,7 @@
   type IconButtonSize = "medium" | "large";
 
   export let title: string;
+  export let iconUrl: string;
   export let size: IconButtonSize = "medium";
 
   let isLarge = size === "large";
@@ -18,6 +19,6 @@
   aria-label={title}
   on:click
 >
-  <slot class="z-1" />
+  <img draggable="false" src={iconUrl} alt={title} />
 </button>
 <Tooltip tooltip={title} />

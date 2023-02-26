@@ -17,9 +17,7 @@
     >
     <div class="flex gap-[12px]">
       <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" tabIndex={-1}>
-        <IconButton title="GitHub" size="large">
-          <img draggable="false" src={githubIcon} alt="GitHub" />
-        </IconButton>
+        <IconButton title="GitHub" size="large" iconUrl={githubIcon} />
       </a>
     </div>
   </div>

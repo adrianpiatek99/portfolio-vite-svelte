@@ -21,28 +21,26 @@
     on:click|stopPropagation
   >
     <div class="flex align-center justify-end">
-      <IconButton title="Close" on:click={onClose}>
-        <img src={closeIcon} alt="Menu" />
-      </IconButton>
+      <IconButton title="Close" on:click={onClose} iconUrl={closeIcon} />
     </div>
     <ul class="flex flex-col w-full gap-[2px]">
       <li class="w-full [&>button]:w-full">
-        <ButtonScrollTo on:click={onClose} elementId="about-me" textAlign="left"
+        <ButtonScrollTo onClick={onClose} elementId="about-me" textAlign="left"
           >About me</ButtonScrollTo
         >
       </li>
       <li class="w-full [&>button]:w-full">
-        <ButtonScrollTo on:click={onClose} elementId="skills" textAlign="left">
+        <ButtonScrollTo onClick={onClose} elementId="skills" textAlign="left">
           Skills
         </ButtonScrollTo>
       </li>
       <li class="w-full [&>button]:w-full">
-        <ButtonScrollTo on:click={onClose} elementId="projects" textAlign="left">
+        <ButtonScrollTo onClick={onClose} elementId="projects" textAlign="left">
           Projects
         </ButtonScrollTo>
       </li>
       <li class="w-full [&>button]:w-full">
-        <ButtonScrollTo on:click={onClose} elementId="contact" textAlign="left">
+        <ButtonScrollTo onClick={onClose} elementId="contact" textAlign="left">
           Contact
         </ButtonScrollTo>
       </li>

@@ -8,7 +8,7 @@
   import externalLink from "assets/icons/externalLink.svg";
   import githubIcon from "assets/icons/github.svg";
   import linkedinIcon from "assets/icons/linkedin.svg";
-  import { EMAIL_ADDRESS, LINKEDIN_URL } from "constants/links";
+  import { EMAIL_ADDRESS, GITHUB_URL, LINKEDIN_URL } from "constants/links";
 
   const copy = (value: string) => {
     const app = new CopyClipboard({
@@ -55,7 +55,7 @@
         <Typography class="text-xl sm:text-2xl" weight="medium">GitHub</Typography>
         <a
           class="relative flex align-center text-primary font-semibold text-l duration-200 hover:opacity-70 active:brightness-125 focus-visible:shadow-[0px_1px_0px_theme('colors.current')] sm:text-xl"
-          href={LINKEDIN_URL}
+          href={GITHUB_URL}
           target="_blank"
           rel="noopener noreferrer"
         >
