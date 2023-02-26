@@ -115,7 +115,7 @@ export const projects: Project[] = [
     title: "React portfolio",
     description: "Portfolio website built with react and vite.",
     image: CurrentPortfolioUrl,
-    url: "/",
+    url: "https://adrian-piatek-portfolio.vercel.app",
     githubUrl: "https://github.com/adrianpiatek99/portfolio-vite-react",
     techs: [reactTech, viteReactTech, typeScriptTech, tailwindCssTech]
   },
