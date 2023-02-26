@@ -1,9 +1,32 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
   import AboutMeSection from "lib/AboutMeSection.svelte";
   import ContactSection from "lib/ContactSection.svelte";
   import Footer from "lib/Footer.svelte";
   import Header from "lib/Header/Header.svelte";
+  import ProjectsSection from "lib/ProjectsSection/ProjectsSection.svelte";
   import SkillsSection from "lib/SkillsSection.svelte";
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate-show");
+      } else {
+        entry.target.classList.remove("animate-show");
+      }
+    });
+  });
+
+  onMount(() => {
+    const animateElements = document.querySelectorAll(".animate-hidden");
+
+    animateElements.forEach((el) => observer.observe(el));
+
+    return () => {
+      animateElements.forEach((el) => observer.unobserve(el));
+    };
+  });
 </script>
 
 <main class="relative flex flex-col">
@@ -14,6 +37,7 @@
   <div class="flex flex-col max-w-[1240px] w-full mx-auto p-[30px] z-1">
     <AboutMeSection />
     <SkillsSection />
+    <ProjectsSection />
     <ContactSection />
   </div>
   <Footer />

@@ -60,9 +60,11 @@
       <ButtonScrollTo elementId="contact">Contact</ButtonScrollTo>
     </div>
     <div class="flex sm:hidden">
-      <IconButton title="Menu" on:click={() => (isMenuOpen = !isMenuOpen)}>
-        <img src={hamburgerIcon} alt="Menu" />
-      </IconButton>
+      <IconButton
+        title="Menu"
+        on:click={() => (isMenuOpen = !isMenuOpen)}
+        iconUrl={hamburgerIcon}
+      />
     </div>
   </nav>
 </header>

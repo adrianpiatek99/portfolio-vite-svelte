@@ -5,7 +5,7 @@ import graphqlIcon from "assets/icons/graphql.svg";
 import jestIcon from "assets/icons/jest.svg";
 import materialUiIcon from "assets/icons/material-ui.svg";
 import mswIcon from "assets/icons/msw.svg";
-import nextJsIcon from "assets/icons/next-js.svg";
+import nextjsIcon from "assets/icons/next-js.svg";
 import playwrightIcon from "assets/icons/playwright.svg";
 import prettierIcon from "assets/icons/prettier.svg";
 import prismaIcon from "assets/icons/prisma.svg";
@@ -37,7 +37,7 @@ export const skills: {
 } = {
   experiencedWith: [
     {
-      src: nextJsIcon,
+      src: nextjsIcon,
       website: "https://nextjs.org",
       text: "Next.js"
     },
