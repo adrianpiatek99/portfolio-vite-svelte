@@ -1618,11 +1618,6 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-trap-focus-svelte@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/trap-focus-svelte/-/trap-focus-svelte-1.0.0.tgz#aabe0b7be9705c0efa8a273383994269a8fa40bc"
-  integrity sha512-GFZ/YeVptvdxQEi+Xktyherm4ggS/oga28Fhnj2NknGB8Px1fTWwvxLYUd/7F8cD302lK24QPYDxMcxAuJJAtQ==
-
 tsconfck@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-2.0.3.tgz#47b79fc6be3c5ec6ec9b3862d1c959e85038b117"

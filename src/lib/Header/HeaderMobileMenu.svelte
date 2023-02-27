@@ -5,14 +5,14 @@
   import IconButton from "atoms/IconButton/IconButton.svelte";
 
   import closeIcon from "assets/icons/close.svg";
-  import { trapFocus } from "trap-focus-svelte";
+  import { focusTrap } from "utils/focusTrap";
 
   export let isPinned: boolean;
   export let onClose: () => void;
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div class="fixed inset-0 z-50" on:click={onClose} use:trapFocus>
+<div class="fixed inset-0 z-50" on:click={onClose} use:focusTrap>
   <div
     class="fixed {isPinned
       ? 'top-[10px]'
